@@ -1,0 +1,9 @@
+{
+    git push gh:x-cmd/ccal-data 
+    git push gt:x-cmd/ccal-data 
+    git push cb:x-cmd/ccal-data 
+
+    git push gh:x-cmd/ccal-data --tag -f
+    git push gt:x-cmd/ccal-data --tag -f
+    git push cb:x-cmd/ccal-data --tag -f
+}
