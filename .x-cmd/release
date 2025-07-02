@@ -4,3 +4,7 @@
     x gh repo release create -r x-cmd/ccal-data --tag "${1:?Please provide version}"
     x cb repo release create -r x-cmd/ccal-data --tag "${1:?Please provide version}"
 }
+
+# ( cd ..; x z ccal.tar.xz ccal-data/index ccal-data/lunar && x z ccal.tar.gz ccal-data/index ccal-data/lunar; )
+# then upload ccal.tar.xz and ccal.tar.gz to the release.
+
